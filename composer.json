@@ -1,0 +1,15 @@
+{
+  "name": "vendor/photoshoot",
+  "authors": [
+    {
+      "name": "gabrielleles18",
+      "email": "gabriel.leles18@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhotoShoot\\": "classes/"
+    }
+  },
+  "require": {}
+}
