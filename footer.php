@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <h1 class="follow">Follow Instagram</h1>
-        <h5 class="perfil">@Alime_photographer</h5>
+        <h5 class="perfil">@User_photographer</h5>
     </div>
     <div id="feed-instagram"></div>
     <div class="rodape">
@@ -37,13 +37,13 @@
                 </form>
             </div>
             <div class="copyrights">
-                <h5>Copyright ©2020 Todos diretos reservados. Bitmap | desenvolvidor por <a href="">Gabreil Leles</a>
+                <h5>Copyright ©<?= Date('Y') ?> Todos diretos reservados. desenvolvidor por <a href="https://github.com/gabrielleles18">Gabreil Leles</a>
                 </h5>
             </div>
         </div>
     </div>
 </footer>
 <?php wp_footer(); ?>
-<script src="<?= get_template_directory_uri()?>/assets/js/templates/imagebox.js"></script>
+<script src="<?= get_template_directory_uri() ?>/assets/js/templates/imagebox.js"></script>
 </body>
 </html>
